@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⚡ Energy Consumption & GHG Emissions Tracker
 
 A simple full-stack web application that allows users to record their electricity consumption and automatically calculates the corresponding Greenhouse Gas (GHG) emissions using a standardized emission factor.
@@ -120,3 +121,6 @@ GitHub: @fuzailrizvi
 
 📄 License
 This project is open source and available under the MIT License.
+=======
+
+>>>>>>> e8703bff74191adf37ccdc802755a95c01149896
