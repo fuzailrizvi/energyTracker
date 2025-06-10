@@ -20,7 +20,7 @@ const EntryForm = ({ onNewEntry }) => {
         setError("");
 
         try {
-            const response = await axios.post("http://localhost:5000/api/entries", form);
+            const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/entries`, form);
             onNewEntry(response.data);
             setForm({ billDate: "", numberOfDays: "", totalUsage: "" });
         } catch (err) {
