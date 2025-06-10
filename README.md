@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ⚡ Energy Consumption & GHG Emissions Tracker
 
 A simple full-stack web application that allows users to record their electricity consumption and automatically calculates the corresponding Greenhouse Gas (GHG) emissions using a standardized emission factor.
@@ -54,40 +53,33 @@ A simple full-stack web application that allows users to record their electricit
 ```bash
 git clone https://github.com/fuzailrizvi/energyTracker.git
 cd energyTracker
+
+---
 📦 Install Dependencies
 Backend
-bash
-Copy
-Edit
 cd backend
 npm install
+
 Frontend
-bash
-Copy
-Edit
 cd frontend
 npm install
+
 🔑 Environment Variables
 Create a .env file inside the backend/ folder:
-
-env
-Copy
-Edit
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
+
+---
+
 ▶️ Run Locally
 Start Backend
-bash
-Copy
-Edit
 cd backend
 npm start
+
 Start Frontend
-bash
-Copy
-Edit
 cd frontend
 npm run dev
+
 📊 Emissions Formula
 GHG Emissions (kg CO₂e) = Total Usage (kWh) × 0.45
 
@@ -104,6 +96,8 @@ Backend uses basic CORS and JSON middleware.
 
 GHG emissions are calculated server-side for consistency.
 
+---
+
 🚀 Future Enhancements
 📈 Add charts for month-on-month comparison
 
@@ -115,12 +109,11 @@ GHG emissions are calculated server-side for consistency.
 
 📱 Fully responsive mobile-first redesign
 
+---
+
 👨‍💻 Author
 Fuzail Rizvi
 GitHub: @fuzailrizvi
 
 📄 License
 This project is open source and available under the MIT License.
-=======
-
->>>>>>> e8703bff74191adf37ccdc802755a95c01149896
